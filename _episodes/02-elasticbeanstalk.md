@@ -25,11 +25,11 @@ keypoints:
 conda create -n env_name python
 ```
 
-![](/images/01-elasticbeanstalk-0001.png)
+![](/images/02-elasticbeanstalk-0001.png)
 
 3. You are now ready to create your new project. From the File menu, select New Project then Django. Fill in the location where you want to save your project (Here I am saving it to /Users/Amanda/PycharmProjects/beanstalkdemo). Then choose your interepreter. Click the little button on the right of the Interpreter text box, select "Add local" then find the virtual environment that you created earlier. If you created your environment using conda, it should be in your home directory under anaconda. For example, my virtual environment will be stored in ~/anaconda/envs/aws-env/. You will want to add the Python interpreter created in that virtual environment. Here, I am using Python 3.6.0. Click create
 
-![](/images/01-elasticbeanstalk-0002.png)
+![](/images/02-elasticbeanstalk-0002.png)
 
 4. 
 
