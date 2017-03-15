@@ -1,7 +1,7 @@
 ---
 layout: break
 title: "Django Webframework on Azure Web Apps"
-teaching: 10
+teaching: 0
 exercises: 25
 break: 0
 ---
