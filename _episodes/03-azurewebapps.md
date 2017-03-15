@@ -1,6 +1,6 @@
 ---
 layout: break
-title: "Morning Coffee"
+title: "Django Webframework on Azure Web Apps"
 teaching: 10
 exercises: 25
 break: 0
