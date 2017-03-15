@@ -2,6 +2,7 @@
 title: "Django on Google App"
 teaching: 10
 exercises: 25
+break: 15
 questions:
 - "What have we learned?"
 objectives:
