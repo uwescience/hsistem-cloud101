@@ -1,7 +1,7 @@
 ---
-title: "Wrap-Up"
-teaching: 15
-exercises: 0
+title: "Django on Google App"
+teaching: 10
+exercises: 25
 questions:
 - "What have we learned?"
 objectives:
