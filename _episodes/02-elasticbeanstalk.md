@@ -1,7 +1,7 @@
 ---
 title: "AWS Elastic Beanstalk"
 teaching: 10
-exercises: 45
+exercises: 25
 questions:
 - "Can we break up the lesson into multiple parts?"
 objectives:
