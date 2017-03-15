@@ -1,11 +1,13 @@
 ---
-title: "AWS Elastic Beanstalk"
+title: "Cloud Overview"
 teaching: 0
 exercises: 25
 questions:
-- "Can we break up the lesson into multiple parts?"
+- "What is the cloud? Why use it?"
+- "How do I choose a cloud provider?"
 objectives:
-- "See that you can have more than one part for the lesson"
+- "Learn about the the advantages and disadvantages of the cloud"
+- "Available services, ease of migration, cost, pervasiveness in your field, etc."
 keypoints:
 - "We can add parts to the lesson, by adding more markdown files"
 - "You get the picture"
