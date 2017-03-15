@@ -1,7 +1,7 @@
 ---
 title: "Cloud Overview"
 teaching: 0
-exercises: 25
+exercises: 35
 questions:
 - "What is the cloud? Why use it?"
 - "How do I choose a cloud provider?"
