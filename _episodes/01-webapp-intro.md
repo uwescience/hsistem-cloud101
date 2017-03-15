@@ -1,9 +1,10 @@
 ---
-title: "An introduction to this lesson"
-teaching: 15
+title: "Introduction to web frameworks"
+teaching: 20
 exercises: 0
 questions:
-- "What do we need a template for?"
+- "What are webapps?"
+- "How do we build webapps and APIs"
 objectives:
 - "Edit lesson materials in the template"
 - "Contribute fixes through Github PRs"
