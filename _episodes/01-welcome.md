@@ -1,6 +1,6 @@
 ---
-title: "Introduction to web frameworks"
-teaching: 45
+title: "Welcome and logistics"
+teaching: 10
 exercises: 0
 questions:
 - "What are webapps?"
