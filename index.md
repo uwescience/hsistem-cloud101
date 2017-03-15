@@ -1,8 +1,6 @@
 ---
 layout: lesson
 ---
-This lesson is a template for creating [geohackweek]({{site.ghw_site}})
-lessons.
+This section will introduce you the important basics of moving your research to the cloud. Here we will learn the fundamentals of costing and an overview of available cloud services. 
 
-It is based on the lesson template used in [Data Carpentry]({{ site.dc_site }})
-and [Software Carpentry]({{ site.swc_site }}) workshops,
+
