@@ -1,6 +1,6 @@
 ---
 title: "Welcome and logistics"
-teaching: 10
+teaching: 45
 exercises: 0
 questions:
 - "What are webapps?"
@@ -16,7 +16,9 @@ keypoints:
 
 ---
 
-### geohackweek is *open*
+### cloud101 is *open*
+
+![some_damn_image](/cloud101_intro/fig/redqueen.png)
 
 The geohackweek event can only accomodate a limited number of participants.
 Nevertheless, we are committed to openess and we are committed to providing our
