@@ -3,17 +3,26 @@ title: "Cloud adoption framework"
 teaching: 20
 exercises: 0
 questions:
+- "What is your favorite color?"
+objectives:
+- "go"
+keypoints:
+- "go"
+---
+
 - "What do we mean by 'Data Intensive Science'?"
 - "What are Web Apps, Clients and Servers?"
 - "What is cluster computing?"
 - "Where does this course get us? (hint: Not carte blanche!)"
 - "What does this course cover? *not* cover?"
 - "What is the post-course strategy for filling in and building up cloud skills?"
-objectives:
+
+
 - "In 15 minutes get a sense of where we are going today and what my post-today strategy should be."
 - "Level set on cloud pillars, providers and platforms"
 - "Understand the cloud adoption framework (awareness to instance to abstraction)"
-keypoints:
+
+
 - Cloud adoption is a matter of awareness, learning, matching the tech to your work and implementation.
   - 'matching the tech to your work' we abbreviate as 'mode'
 - The five cloud pillars are compute, store, manage, web and services
@@ -36,7 +45,7 @@ keypoints:
   - You are the protagonist
   - Other actors: Funding agencies, cloud vendors, third party providers
   - Finally there is your community and there is the open source development community
----
+
 
 ### cloud101 is *open*
 
