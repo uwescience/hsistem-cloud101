@@ -1,5 +1,5 @@
 ---
-title: "Welcome welcome welcome"
+title: "Welcome and Setup"
 teaching: 15
 exercises: 0
 questions:

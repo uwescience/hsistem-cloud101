@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Cloud adoption framework"
 teaching: 20
 exercises: 0
 questions:
