@@ -16,38 +16,22 @@ keypoints:
 - "Azure features fast connectivity and lots of integration with the Microsoft technology stack"
 - "All public clouds have OS emphasis: Linux first and Windows also"
 ---
-## Prerequisites
-- Please have anaconda or a working version of python installed 
-- We will be using PyCharm to deploy our Django web framework. Please make sure you have PyCharm installed. 
-- The web API code is available here: http://github.com/cloudmaven/web_api
 
-## Something
+## Choosing which cloud
 
-1. a
+Review "It's on you" to get safe (and we know your time is limited)
 
-2. b
+Review the five pillars
 
-3. c
+1. In your field of research: Who uses which cloud? 
+2. What sort of compute power do you need? 
+- single machine, cluster, GPU, FPGA, infiniband (HTC, HPC)
+3. Let's compare resource costs
+- Spot, reserved, dedicated, Google, Azure
+- Exercise on this later
+4. Triage your work in [http://cloudmaven.org](http://cloudmaven.org)
+5. Let's cover credit programs
+6. Let's cover billing and tracking (when on credit especially)
+7. Development tools
+8. Services
 
-4. You should now have a project with a folder structure that looks something like this:
-
-
-5. 
-
-~~~
-option_settings:
-  aws:elasticbeanstalk:container:python:
-    WSGIPath: beanstalkdemo/wsgi.py
-~~~
-
-6. 
-
-~~~
-appdirs==1.4.3
-Django==1.10
-packaging==16.8
-pyparsing==2.2.0
-six==1.10.0
-~~~
-
-7. 
