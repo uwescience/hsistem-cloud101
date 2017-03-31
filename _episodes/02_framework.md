@@ -24,22 +24,18 @@ Share awareness of this course and the eScience Institute with your colleagues.
 
 ### Your way foreward after today's coursework 
 
-- Bookmark this course so you will have the rest of this list available
+- Bookmark [cloud maven](http://cloudmaven.org)
+- Bookmark [this course](https://cloudmaven.github.io/documentation/rc_cloud101_immersion.html) 
 - Share this course with colleagues
-- Visit the Data Science Studio
-- Bookmark [http://cloudmaven.org](http://cloudmaven.org), a **link reference site**
-- Remember search engines, YouTube and KB resources like StackOverflow
+- Visit the Data Science Studio: Office hours including cloud vendors
+- Search engines, YouTube, StackOverflow, UW Help
 - Remember that the vendors are highly motivated to help you: Online and in person
-- Know about help@uw.edu
-- Learn GitHub and Jupyter if you haven't already; and know what Django is
-- Triage your research computing: Cloud? Mode? Platform? 
+- Know about, even use: GitHub, Jupyter, Django
 - Apply for research computing credits on the platform of your choice
+- Set up your cloud account, build your environment, get back to your research
 
 
-### What this course is / isn't
-
-
-#### Is
+### What this course is 
 
 - A description of how you choose a cloud platform
 - Elements of implementing your research on the cloud
@@ -62,7 +58,7 @@ Share awareness of this course and the eScience Institute with your colleagues.
 {: .challenge}
 
 
-#### Isn't
+### What it isn't
 
 
 - A comprehensive overview of managing a public cloud account 
@@ -71,7 +67,7 @@ Share awareness of this course and the eScience Institute with your colleagues.
 - Extensive comparison with **BAM** or UW HPC computing 
 
 
-### We interrupt this broadcast for two callouts
+### Two severe weather advisories
 
 
 > ## The burden of cloud management is on each of us
@@ -81,7 +77,7 @@ Share awareness of this course and the eScience Institute with your colleagues.
 {: .callout}
 
 
-> ## Lemons from lemonade: How GitHub rollbacks can bite you
+> ## Lemons from lemonade
 > A good way of getting some bad news is to publish **and then delete** your cloud 
 > access credentials on GitHub. GitHub supports versioning: Someone who is not your 
 > friend can roll back your public repository to the version where the key was 
