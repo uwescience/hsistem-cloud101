@@ -43,33 +43,56 @@ A description of how you choose a cloud platform...
 
 Some elements of how you approach implementing your research on the cloud
 
-An overview of security, cost, account management and processing power
+An overview of security, cost, account management, processing power and time value
 
 Hands-on: Build your web app
 
 Hands-on: Build a compute cluster
 
-Researcher advocacy
+Enthusiasim: Researcher advocacy and the eScience Institute
 
-Get to know about the eScience Institute
+
+> ## Challenge (click arrow to the right to open)
+>
+>  What is the Google technology called 'TensorFlow' all about?
+>    - What would you use it for? 
+>    - What is the corresponding Microsoft Azure technology for Machine Learning on the cloud?
+>    - For AWS?
+>        Hint for [Google Tensor Flow]https://www.tensorflow.org/).
+>        Hint for [Microsoft Azure](https://studio.azureml.net/)
+>        Hint for [AWS](https://aws.amazon.com/machine-learning/)
+{: .challenge}
+
 
 #### Isn't
 
+
 - A comprehensive overview of managing a public cloud account 
 - A license to jump onto the public cloud and start creating massive compute jobs
-- An advertisement for AWS or some other cloud vendor 
-- Comparisons with **BAM** or UW HPC computing 
+- An advertisement for some particular cloud vendor 
+- Extensive comparison with **BAM** or UW HPC computing 
 
-There is considerable detail to learn and the cloud can quickly become expensive if 
-you accidentally allocate utility resources and allow them to keep running. They will 
-run up your bill. Cloud instances can be turned off without losing state/progress.
 
-A good way of getting some bad news is to publish **and then delete** your cloud 
-access credentials on GitHub. GitHub supports versioning: Someone who is not your 
-friend can roll back your public repository to the version where the key was 
-present, grab that key, and start using your cloud account at your expense.  
+### We interrupt this broadcast for two callouts
 
-### The Public Cloud Framework
+
+> ## The burden of cloud management is on each of us
+> There is considerable detail to learn and the cloud can quickly become expensive if 
+> you accidentally allocate utility resources and allow them to keep running. They will 
+> run up your bill. Cloud instances can be turned off without losing state/progress.
+{: .callout}
+
+
+> ## Lemons from lemonade: How GitHub rollbacks can bite you
+> A good way of getting some bad news is to publish **and then delete** your cloud 
+> access credentials on GitHub. GitHub supports versioning: Someone who is not your 
+> friend can roll back your public repository to the version where the key was 
+> present, grab that key, and start using your cloud account at your expense.  
+{: .callout}
+
+
+### Our Public Cloud Framework
+
 
 This *framework* is the vocabulary and relationships we use to describe using the public
 cloud platform for data-driven research. Here comes the jargon storm.
@@ -83,7 +106,6 @@ from your research slice.  We can also introduce you to doing things that might 
 like publishing your data and software as an executable paper.
 
 
-
 #### The cloud components are compute, store, manage, web and services
 
 
@@ -92,14 +114,19 @@ like publishing your data and software as an executable paper.
     - Compute as a service example: AWS Lambda
     - Third parties like GitHub provide 98% solutions: The task is finding them
 
+
   - Storage = S3 = Blob = Google Cloud Storage (and Google Drive)
     - 0.024 dollars per GB-month (and x 1/2 and x 1/4 for archival applications)
 
+
   - Manage = Databases... SQL, Not Only SQL... Data Warehouses... query machinery
+
 
   - Web = Web services, web sites, APIs, Clients, confederation, ...
 
+
   - Services = All of the above simplified: Often no Compute involved
+
 
 #### The cloud facets to learn about are admin, cost, security, scale and time
 
@@ -107,9 +134,11 @@ like publishing your data and software as an executable paper.
 - Admin is easy to dismiss; but it is always present, even on the cloud
   - When we reconstitute an AWS AMI we habitually run 
 
+
 ```
 % sudo yum update
 ```
+
 
   - You can learn to keep your cloud environment up-to-date without becoming a sysadmin
 
@@ -148,16 +177,46 @@ to assess and learn cloud tech for your work. This might be very fast - which is
 the majority of cases - but if you are getting into sophisticated work e.g. using a web framework
 then there could be a substantial bootstrapping effort required. 
 
+
   - You are the protagonist in the play
   - The other actors are funding agencies, cloud vendors, third party providers
   - There is your domain-specific community 
-  - There is the open source development community
+  - There is the open source development community. They may have built 98% of what you need.
+
 
 Our call to action is: 'Learn enough to learn enough to learn enough... to evaluate cloud migration.'
 The simplest approach is to visit us by appointment or during drop-in office hours. 
 
 
+### Which Cloud Should I Use?
+
+
+"It depends..." and here are some factors.
+
+
+- In your field of study: Are certain cloud providers in favor? For compelling reasons? 
+- What sort of compute power are you looking for? Single machines? cluster? GPU? FPGA? HTC? HPC? 
+- Cost: Per machine, en masse, Spot (bidding) market, reserved VMs, dedicated VMs for security, ...
+- Compare your compute tasks with case studies at [cloudmaven.org](http://cloudmaven.org)
+- Be aware of credit programs: Azure and AWS; Google may follow soon...
+- Be aware of cost tracking and billing as a way to validate your cost estimates
+- Development tools for the different clouds
+- What services do the vendors provide that may make life much simpler?  
+- Docker: Your first key to migrating from one cloud to another
+
+
+|Category|AWS|Azure|Google|
+|---------|:--------:|-----:|
+|vCPU hour||1||
+|storage GB-month|||0|
+|5900 vCPUs x 53 hours|3400|who|knows|
+|something|0|1|2|
+|else|0|1|2|
+|entirely|0|1|2|
+
+
 ### Questions to look over, call out and discuss
+
 
 - "What do we mean by 'Data Intensive Science'?"
 - "What are Web Apps, Clients and Servers?"
@@ -169,20 +228,4 @@ The simplest approach is to visit us by appointment or during drop-in office hou
 - "What is the post-course strategy for filling in and building up cloud skills?"
 
 
-> ## Exercises and challenges (click on the arrow to the right to open)
->
->  Boxes with "challenges" can be interleaved with the lesson materials.
->  Consider adding a challenge every 15 minutes or so.
->    - This helps participants stay engaged.
->    - It surfaces questions that learners have as they go along.
->    - It breaks up the instruction, providing a bit of a diversion.
->    - It gives people a chance to engage in peer instruction, which is
->      is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
-{: .challenge}
 
-
-> ## Callouts
-> If you want to introduce a box with a "callout", use this syntax
-> This is useful for materials that you think of as explanatory asides
-> I usually use this for extra material that is "optional".
-{: .callout}
