@@ -35,32 +35,30 @@ Share awareness of this course and the eScience Institute with your colleagues.
 - Triage your research computing: Cloud? Mode? Platform? 
 - Apply for research computing credits on the platform of your choice
 
+
 ### What this course is / isn't
+
 
 #### Is
 
-A description of how you choose a cloud platform... 
-
-Some elements of how you approach implementing your research on the cloud
-
-An overview of security, cost, account management, processing power and time value
-
-Hands-on: Build your web app
-
-Hands-on: Build a compute cluster
-
-Enthusiasim: Researcher advocacy and the eScience Institute
+- A description of how you choose a cloud platform
+- Elements of implementing your research on the cloud
+- Overview of security, cost, account management, processing power and time value
+- Hands-on: Build a web app
+- Hands-on: Build a compute cluster
+- Enthusiasim: Researcher advocacy and the eScience Institute
 
 
 > ## Challenge (click arrow to the right to open)
 >
->  What is the Google technology called 'TensorFlow' all about?
->    - What would you use it for? 
->    - What is the corresponding Microsoft Azure technology for Machine Learning on the cloud?
->    - For AWS?
->        Hint for [Google Tensor Flow]https://www.tensorflow.org/).
->        Hint for [Microsoft Azure](https://studio.azureml.net/)
->        Hint for [AWS](https://aws.amazon.com/machine-learning/)
+>  - What is the Google technology called 'TensorFlow' about?
+>  - What is the corresponding Microsoft Azure technology?
+>  - For AWS?
+>
+>
+>  - Link for [Google Tensor Flow](https://www.tensorflow.org/).
+>  - Link for [Microsoft Azure ML Studio](https://studio.azureml.net/)
+>  - Link for [AWS ML](https://aws.amazon.com/machine-learning/)
 {: .challenge}
 
 
@@ -110,12 +108,16 @@ like publishing your data and software as an executable paper.
 
 
   - Compute = VM = 'instance' = a computer = AWS EC2 = Azure VM = Google Compute Engine
+
+
     - Compute means 'instance + OS + memory + pre-installed tools + ...'
     - Compute as a service example: AWS Lambda
     - Third parties like GitHub provide 98% solutions: The task is finding them
 
 
   - Storage = S3 = Blob = Google Cloud Storage (and Google Drive)
+
+
     - 0.024 dollars per GB-month (and x 1/2 and x 1/4 for archival applications)
 
 
@@ -132,7 +134,9 @@ like publishing your data and software as an executable paper.
 
 
 - Admin is easy to dismiss; but it is always present, even on the cloud
-  - When we reconstitute an AWS AMI we habitually run 
+
+
+  - When we reconstitute an AWS AMI we habitually run this command:
 
 
 ```
@@ -140,7 +144,7 @@ like publishing your data and software as an executable paper.
 ```
 
 
-  - You can learn to keep your cloud environment up-to-date without becoming a sysadmin
+  - You can keep your cloud environment up-to-date without becoming a sysadmin
 
 
 - Cost is 'one penny per processor-hour and three pennies per GB-month'
@@ -207,12 +211,12 @@ The simplest approach is to visit us by appointment or during drop-in office hou
 
 |Category|AWS|Azure|Google|
 |---------|:--------:|-----:|
-|vCPU hour||1||
-|storage GB-month|||0|
+|vCPU hour|before|you|ask|
+|storage GB-month|the|shadow|knows|
 |5900 vCPUs x 53 hours|3400|who|knows|
-|something|0|1|2|
-|else|0|1|2|
-|entirely|0|1|2|
+|something|what|evil|lurks|
+|else|in|the|hearts|
+|entirely|of|men|????|
 
 
 ### Questions to look over, call out and discuss
