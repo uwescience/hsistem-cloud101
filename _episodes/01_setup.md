@@ -10,6 +10,7 @@ objectives:
 - "Run through other course prerequisites"
 keypoints:
 - AWS, Microsoft Azure and Google Cloud Platform are fantastic initial public cloud resources.
+- All three regularly visit UW: Purpose and outcome
 ---
 
 ### Your AWS account

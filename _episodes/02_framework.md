@@ -16,6 +16,8 @@ keypoints:
 
 ### cloud101 is *open*
 
+If cloud computing was VMs and storage we would not be teaching this course.
+
 ![red queen](/cloud101_intro/fig/redqueen.png)
 
 The course can accommodate only a limited number of participants.  We are committed to 
