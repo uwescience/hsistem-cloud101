@@ -16,23 +16,42 @@ keypoints:
 
 ### cloud101 is *open*
 
-If cloud computing was VMs and storage we would not be teaching this course.
+If cloud computing was VMs and storage we would not be here today! There must
+be a bit more... so let's begin with who we are and how we see the **Researcher**!
+
 
 ![red queen](/cloud101_intro/fig/redqueen.png)
 
-The course can accommodate only a limited number of participants.  We are committed to 
-providing our materials openly through a public website. Our call to action: 
-Share awareness of this course and the eScience Institute with your colleagues.
 
-### Your way foreward after today's coursework 
+We work out of UW IT and the eScience Institute to try and accelerate research by helping
+the **Researcher**. Since the Researcher is so central to our lives we capitalize the title
+and include the above handy illutration: A person running as fast as they can just to stand
+in one place and even faster than that to make progress... sometimes with a student or two
+in tow. 
+
+
+This one-day course is primarily introductory but also as hands-on as we can make it. 
+You have made the time to be here -- maybe you stopped running for a moment -- and we 
+are working hard to give you value for your time. 
+
+
+The course can accommodate only a limited number of participants.  We are committed to 
+providing our materials openly through a public website.  The content here is therefore
+more comprehensive than an outline.
+
+
+Our call to action to you: Share awareness of both this course and of the eScience Institute 
+with your colleagues. 
+
+
+### Your way foreward after today
 
 - Bookmark [cloud maven](http://cloudmaven.org)
 - Bookmark [this course](https://cloudmaven.github.io/documentation/rc_cloud101_immersion.html) 
 - Share this course with colleagues
-- Visit the Data Science Studio: Office hours including cloud vendors
-- Search engines, YouTube, StackOverflow, UW Help
-- Remember that the vendors are highly motivated to help you: Online and in person
-- Know about, even use: GitHub, Jupyter, Django
+- Visit the Data Science Studio: Office hours including those of cloud vendors
+- Search engines, YouTube, StackOverflow, UW Help: Use the web
+- Know about, use: GitHub, Jupyter, Django, Slack
 - Apply for research computing credits on the platform of your choice
 - Set up your cloud account, build your environment, get back to your research
 
