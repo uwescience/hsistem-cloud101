@@ -14,43 +14,54 @@ keypoints:
 - "'Service' is just providing the other four components free of underlying concerns like VMs ('Dinner with no plates and no table')"
 ---
 
-### cloud101 is *open*
 
-If cloud computing was VMs and storage we would not be here today! There must
-be a bit more... so let's begin with who we are and how we see the **Researcher**!
+## cloud101 
+
+
+This course is is *open*: Publicly available and we have tried to make it self-guided 
+as much as possible. If you are working on your own you will need to set up and configure
+cloud accounts with up to three vendors/platforms that we discuss: Amazon Web Services, 
+Microsoft Azure and Google Cloud Platform. In all cases you can get a small test
+account (with credit on the order of a couple hundred dollars) but you may be obliged
+to provide a credit card.
+
+
+> ## Why Are We Here? 
+> If cloud computing was just Virtual Machines and Storage we would not be here 
+> today! There must more going on; and our first evidence is the appeal of this
+> course across research domains. The first class included 45 attendees with 
+> representatives from **Oceanography, Libraries, Biology, eScience, Forestry, 
+> Bioinformatics, Sociology, Computer Science, Hospitals, Environmental Science, 
+> Astronomy, Electrical Engineering, the Information School and King County
+> Metro!**
+{: .callout}
 
 
 ![red queen](/cloud101_intro/fig/redqueen.png)
 
 
-We work out of UW IT and the eScience Institute to try and accelerate research by helping
-the **Researcher**. Since the Researcher is so central to our lives we capitalize the title
-and include the above handy illutration: A person running as fast as they can just to stand
-in one place and even faster than that to make progress... sometimes with a student or two
-in tow. 
-
-
+We work out of the eScience Institute and UW IT to try and accelerate research by helping
+the **Researcher**.  Our model for the **Researcher** is the Red Queen from 
+_Through The Looking Glass_: A person running very fast just to stay in once place. 
+We tend to work with Researchers who can make the time to stop running for a moment 
+in order to learn about and evaluate the cloud as a research computing platform. 
 This one-day course is primarily introductory but also as hands-on as we can make it. 
-You have made the time to be here -- maybe you stopped running for a moment -- and we 
-are working hard to give you value for your time. 
 
 
-The course can accommodate only a limited number of participants.  We are committed to 
-providing our materials openly through a public website.  The content here is therefore
-more comprehensive than an outline.
-
-
-Our call to action to you: Share awareness of both this course and of the eScience Institute 
-with your colleagues. 
+> ## Our Call To Action To You
+> Our call to action to you: Share awareness of both this course and of the eScience 
+> Institute with your colleagues. 
+{: .callout}
 
 
 ### Your way foreward after today
 
+
 - Bookmark [cloud maven](http://cloudmaven.org)
 - Bookmark [this course](https://cloudmaven.github.io/documentation/rc_cloud101_immersion.html) 
 - Share this course with colleagues
-- Visit the Data Science Studio: Office hours including those of cloud vendors
-- Search engines, YouTube, StackOverflow, UW Help: Use the web
+- Visit the Data Science Studio: Consulting and vendor office hours 
+- Use: Search engines, YouTube, StackOverflow, UW Help to get more assistance
 - Know about, use: GitHub, Jupyter, Django, Slack
 - Apply for research computing credits on the platform of your choice
 - Set up your cloud account, build your environment, get back to your research
@@ -61,8 +72,9 @@ with your colleagues.
 - A description of how you choose a cloud platform
 - Elements of implementing your research on the cloud
 - Overview of security, cost, account management, processing power and time value
-- Hands-on: Build a web app
-- Hands-on: Build a compute cluster
+- Hands-on: Start an instance, store some data **Across Three Cloud Platforms**
+- Hands-on: Build a Django web application with an API
+- Hands-on: Build and operate a compute cluster
 - Enthusiasim: Researcher advocacy and the eScience Institute
 
 
@@ -92,9 +104,11 @@ with your colleagues.
 
 
 > ## The burden of cloud management is on each of us
-> There is considerable detail to learn and the cloud can quickly become expensive if 
-> you accidentally allocate utility resources and allow them to keep running. They will 
-> run up your bill. Cloud instances can be turned off without losing state/progress.
+> There is considerable detail to learn about managing your work on the public cloud.
+> Without this skill life can quickly become expensive; for example if you accidentally 
+> allocate > expensive resources and leave them runningi. 
+> (Cloud instances can be turned off without losing state/progress and they can
+> be saved as memory images.)
 {: .callout}
 
 
@@ -110,15 +124,43 @@ with your colleagues.
 
 
 This *framework* is the vocabulary and relationships we use to describe using the public
-cloud platform for data-driven research. Here comes the jargon storm.
+cloud platform for data-driven research. Here comes the jargon storm! In what follows we
+assume you are a **Researcher** focused on data-driven science and that you are interested
+in adopting the cloud as a way of streamlining that process in some capacity.
 
 
-You do perfunctory processing and exploratory processing. The cloud can help you with
-both of these at the expense of the time you must invest to learn new methods. We call
-this *cloud adoption*.  Cloud adoption is awareness + learning + matching the tech to your 
-work and implementation.  Our goal is to reduce your time pie chart slices that detract 
-from your research slice.  We can also introduce you to doing things that might be new
-like publishing your data and software as an executable paper.
+As a Researcher you do perfunctory processing and exploratory processing. The cloud can help 
+you with both, but at a cost: The time you invest to learn new methods. We call this 
+*cloud adoption* and the core premise is that you no longer have a *familiar computer*
+with an attached storage system where you log in and do your work. The cloud model is
+(they like to say) *cattle not pets*: You have a huge pool of available compute resources
+and you rent them by the hour. When you are done with them you simply *Stop* or *Terminate*
+them and they go back into the resource pool.  Before continuing let's do a quick cost 
+analysis of what this means: How does a cloud machine compare to a desktop?
+
+
+
+> ## A Cloud Under Your Desk
+> A good desktop might cost $3000; and a very powerful cloud instance will cost about
+> $0.40 (USD) per hour. Let's say for the sake of argument that they are equivalent
+> in compute power and attached storage. If you work eight-hour days with four
+> weeks of vacation then your annual compute cost is roughly $800. Over three years
+> your "cloud under the desk" runs you $2400; but you can make this cheaper if you do 
+> not need the compute power; or you can throttle it up when you need a lot. You might 
+> also ask: What are the additional tradeoffs and other factors? Rather than try to
+> spell these out we refer you to the [cloudmaven](http://cloudmaven.org) website 
+> and to our office hours for consulting: The subject is too complex to address here;
+> but to first order renting a cloud machine and turning it off every night can be 
+> quite cost-effective.  One thing we will mention is that when you come in in the morning
+> and start your cloud machine you will have a couple minutes to go get some coffee. 
+{: .callout}
+
+
+More generally: Cloud adoption is *awareness* + *learning* + *matching* 
+the technology to the details of your research.  If you consider the pie chart of 
+your time sliced into activities: Our goal is to reduce the slices that are detracting
+from your *write and publish papers* slice.  We can also introduce you to new things
+like publishing your data and your software; cf the *executable paper*.
 
 
 #### The cloud components are compute, store, manage, web and services
@@ -228,25 +270,27 @@ The simplest approach is to visit us by appointment or during drop-in office hou
 
 |Category|AWS|Azure|Google|
 |---------|:--------:|-----:|
-|vCPU hour|before|you|ask|
-|storage GB-month|the|shadow|knows|
-|5900 vCPUs x 53 hours|3400|who|knows|
-|something|what|evil|lurks|
-|else|in|the|hearts|
-|entirely|of|men|????|
+|vCPU hour|$0.01|$0.01|$0.01|
+|storage GB-month|0.024|0.030|0.030|
+|5900 vCPUs x 53 hours|3400|unclear|$4000|
+|DBaaS per month|what|evil|lurks|
+|Egress < 15% of MB|0|0|unknown|
+|attached storage GB-month|0.10|unknown|unknown|
 
 
-### Questions to look over, call out and discuss
+## Questions For Discussion
 
 
 - "What do we mean by 'Data Intensive Science'?"
 - "What are Web Apps, Clients and Servers?"
-- "What is Django?"
-- "What is Elastic Beanstalk?"
+- "What is the purpose of the Django web framework?"
+- "What is Elastic Beanstalk? What are its analogs on other cloud platforms?"
 - "What is cluster computing?"
-- "Where does this course get us? (hint: Not carte blanche!)"
-- "What does this course cover? *not* cover?"
-- "What is the post-course strategy for filling in and building up cloud skills?"
+- "After this course am I ready to jump into the cloud?"
+- "What is the post-course strategy for filling in blanks and building cloud skills?"
 
 
+*This project is funded in part by NSF Campus Cyberinfrastructure - Infrastructure, 
+Innovation and Engineering Program (CC*IIE) Grant Aware No. ACI-1440281; Principal
+Investigator Brad Greer, CTO, UW-IT.*
 
