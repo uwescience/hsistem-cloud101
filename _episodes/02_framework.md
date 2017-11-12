@@ -37,7 +37,7 @@ to provide a credit card.
 {: .callout}
 
 
-![red queen](/cloud101_intro/fig/redqueen.png)
+![red queen](/cloud101_aws/fig/redqueen.png)
 
 
 We work out of the eScience Institute and UW IT to try and accelerate research by helping
