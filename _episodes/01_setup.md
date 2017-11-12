@@ -1,14 +1,13 @@
 ---
-title: "Lambda S3 and EC2"
+title: "Welcome and Setup"
 teaching: 15
 exercises: 0
 questions:
-- "What is lambda?"
-- "What is S3?"
-- "What is EC2?"
+- "Who are the three cloud vendors we are considering today?"
+- "Are your prerequisites in order?"
 objectives:
-- "TBD"
-- "TBD2"
+- "Get settled, check access to your AWS account"
+- "Run through other course prerequisites"
 keypoints:
 - AWS, Microsoft Azure and Google Cloud Platform are fantastic initial public cloud resources.
 - All three regularly visit UW: Purpose and outcome
