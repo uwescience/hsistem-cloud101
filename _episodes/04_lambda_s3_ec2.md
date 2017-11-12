@@ -7,11 +7,12 @@ questions:
 - "What is EC2?"
 - "What is Lambda?"
 objectives:
-- "Having a working knowledge of these three technologies"
+- "Having a working knowledge of lambda, EC2 and S3"
 - "Know how to navigate to **Fire It Up** web pages"
+- "Know the distinction between object storage and block storage"
 keypoints:
 - AWS provides storage and virtual machines; and supports little task-oriented creatures called Lambda functions
-- Visit us (eScience cloud) during office hours or by arrangement to go further
+- Visit us (eScience cloud) during office hours or by arrangement to carry this further
 ---
 
 ### EC2
@@ -29,6 +30,7 @@ keypoints:
 
 ### S3
 
+
 - S3 stands for Something Simple Storage System and So-on
 - S3 buckets live in AWS Regions and have infinite capacity per bucket
 - They are not file systems
@@ -39,6 +41,7 @@ keypoints:
 
 
 ### Prerequisites
+
 
 - Establish a free tier account on AWS
 - Note down your password in a safe location
