@@ -1,14 +1,14 @@
 ---
 title: "The AWS Console"
 teaching: 0
-exercises: 15
+exercises: 30
 questions:
 - "What are the three primary ways of talking to the cloud?"
 - "What are the main activities supported by cloud consoles?"
 objectives:
 - "Learn the navigational mindset for console operations"
 keypoints:
-- "AWS is low-cost, feature rich, in widest use"
+- "AWS is low-cost, feature rich, has widest use"
 - "At a high level you want to know about EC2, S3 and IAM"
 ---
 
