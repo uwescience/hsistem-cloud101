@@ -36,7 +36,19 @@ keypoints:
 - They are not file systems
 
 
+- I set up a bucket in advance called cloud101awsbucket
+- 
+
+
 ### Lambda
+
+
+- We want a lambda function to operate as an agent; for example sending an email
+- AWS Simple Notification Service (SNS) permits us to send emails and such 
+  - [Here is a tutorial for this.](http://docs.aws.amazon.com/lambda/latest/dg/with-sns-example.html)
+- Because lambda is acting automatically on your behalf it needs permissions (2 terms needed)
+  - Role: A construct assigned to your lambda
+  - Policy: Actual code (JSON) attached to this Role
 
 
 
