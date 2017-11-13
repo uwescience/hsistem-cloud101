@@ -1,6 +1,6 @@
 ---
 layout: lesson
 ---
-This section will introduce you the important basics of moving your research to the cloud. Here we will learn the fundamentals of costing and an overview of available cloud services. 
-
-
+This lesson introduces you to the basics of the Amazon Web Services public cloud. 
+We cover the fundamentals of cloud computing and go through both motivation and process 
+involved in moving your research computing to the cloud. 

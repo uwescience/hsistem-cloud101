@@ -3,18 +3,18 @@ title: "Welcome and Setup"
 teaching: 15
 exercises: 0
 questions:
-- "Who is the cloud vendor 'AWS' that we consider today?"
-- "How do they view me, a UW Researcher?'
+- "Who is this cloud vendor AWS that we consider today?"
+- "How does AWS view me, a UW Researcher?'
 - "Practical: Are my prerequisites in order?"
-- "What are IDEs like PyCharm and JupyterLab good for?"
-- "Wait... what if I don't use Python?"
+- "What are IDEs like PyCharm, JupyterLab, Visual Studio and IDLE good for?"
+- "Wait. I don't use Python."
 objectives:
 - "Settle in, check access to my AWS account"
-- "Run through the course outline"
+- "Course outline"
 keypoints:
-- AWS has a *lot* of computers but this is the minor point
-- AWS has a *lot* of developers but this too is a minor point
-- The major point is: You are drowning in data and data science is here to help
+- "AWS has a *lot* of computers but this is the minor point"
+- "AWS has a *lot* of developers but this too is a minor point"
+- "The major point is: You are drowning in data and data science is here to help"
 ---
 
 ### Your AWS account

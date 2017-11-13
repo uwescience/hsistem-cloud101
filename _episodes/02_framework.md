@@ -1,6 +1,6 @@
 ---
 title: "Cloud adoption framework"
-teaching: 20
+teaching: 15
 exercises: 0
 questions:
 - "What is our cloud framework?"
@@ -9,28 +9,35 @@ objectives:
 - "Understand the cloud framework we present"
 - "Map your personal perspective and objectives to this course"
 keypoints:
-- "There is a framework for the cloud that includes { yourself, colleagues, vendors, stacks, and third parties (open/closed) }"
-- "The stack is five components { compute, store, manage, web, service }"
-- "'Service' is just providing the other four components free of underlying concerns like VMs ('Dinner with no plates and no table')"
+- "This framework includes { you, research, colleagues, vendors, third parties, stacks, tools}"
+- "Cloud can be as simple as compute horsepower plus data storage"
+- "Caveat: Cloud is still in its wild west phase..."
+- "The cloud stack is { compute, store, manage, web, service }"
+- "'Service' is a simplified ($$$) version of the other four components"
+
 ---
 
 
 ## cloud101 
 
 
-This course is is *open*: Publicly available and we have tried to make it self-guided 
-as much as possible. If you are working on your own you will need to set up and configure
-cloud accounts with up to three vendors/platforms that we discuss: Amazon Web Services, 
-Microsoft Azure and Google Cloud Platform. In all cases you can get a small test
-account (with credit on the order of a couple hundred dollars) but you may be obliged
-to provide a credit card.
+If you are working examples you will want to set up and configure an AWS cloud account.
+Be aware that if you put a credit card number in you will want to know how to turn things
+off because the first rule of cloud computing is...
+
+
+**Cloud computing is like a utility: You pay for resources you allocate**
+
+
+Your test/learning stages should focus on using free / low-cost resources and deleting them
+when you are done using them so that they do not rack up charges. Eventually these charges
+will exceed the start-up credits (say $100) and we don't want that. 
 
 
 > ## Why Are We Here? 
 > If cloud computing was just Virtual Machines and Storage we would not be here 
-> today! There must more going on; and our first evidence is the appeal of this
-> course across research domains. The first class included 45 attendees with 
-> representatives from **Oceanography, Libraries, Biology, eScience, Forestry, 
+> today! There must more going on.  Attendees include representatives from 
+> **Oceanography, Libraries, Biology, eScience, Forestry, Genomics, 
 > Bioinformatics, Sociology, Computer Science, Hospitals, Environmental Science, 
 > Astronomy, Electrical Engineering, the Information School and King County
 > Metro!**
@@ -76,19 +83,6 @@ This one-day course is primarily introductory but also as hands-on as we can mak
 - Hands-on: Build a Django web application with an API
 - Hands-on: Build and operate a compute cluster
 - Enthusiasim: Researcher advocacy and the eScience Institute
-
-
-> ## Challenge (click arrow to the right to open)
->
->  - What is the Google technology called 'TensorFlow' about?
->  - What is the corresponding Microsoft Azure technology?
->  - For AWS?
->
->
->  - Link for [Google Tensor Flow](https://www.tensorflow.org/).
->  - Link for [Microsoft Azure ML Studio](https://studio.azureml.net/)
->  - Link for [AWS ML](https://aws.amazon.com/machine-learning/)
-{: .challenge}
 
 
 ### What it isn't
