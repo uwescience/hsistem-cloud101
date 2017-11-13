@@ -35,12 +35,13 @@ of around $100.
 
 ## cloud stories
 
+
 - Nick Reder (fast data transfer and pipeline: light sheet microscope)
 - Mark Hallenbeck (database as a service: transportation)
 - Tim Durham (Apache Spark: genomics)
 - Tychele Turner (multiple pipelines: genomics)
 - Gaurav Bhardwaj (large-scale HTC: molecular engineering)
-- Data system projects: AralDIF/NicaDIF, HIMAT, OOI, CUAC, TDC, ROMS, GDS
+- Data system projects: AralDIF/NicaDIF, HIMAT, OOI, IOT/CUAC, TDC, ROMS, GDS
 - JupyterHub
 - Unpleasant conversations
 
