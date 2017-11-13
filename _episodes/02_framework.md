@@ -17,8 +17,7 @@ keypoints:
 
 ---
 
-
-## cloud101 
+## Preamble 
 
 
 If you are working examples you will want to set up and configure an AWS cloud account.
@@ -29,14 +28,74 @@ off because the first rule of cloud computing is...
 **Cloud computing is like a utility: You pay for resources you allocate**
 
 
-Your test/learning stages should focus on using free / low-cost resources and deleting them
-when you are done using them so that they do not rack up charges. Eventually these charges
-will exceed the start-up credits (say $100) and we don't want that. 
+While learning AWS use free / low-cost resources and practice deleting them
+when you are done with them. You do not want to exceed your trial credits 
+of around $100.
+
+
+## cloud stories
+
+- Nick Reder (fast data transfer and pipeline: light sheet microscope)
+- Mark Hallenbeck (database as a service: transportation)
+- Tim Durham (Apache Spark: genomics)
+- Tychele Turner (multiple pipelines: genomics)
+- Gaurav Bhardwaj (large-scale HTC: molecular engineering)
+- Data system projects: AralDIF/NicaDIF, HIMAT, OOI, CUAC, TDC, ROMS, GDS
+- JupyterHub
+- Unpleasant conversations
+
+
+## vocabulary
+
+
+This glossary is oriented towards AWS. Other clouds: Other customs.
+
+
+- Account
+- Owner
+- IAM
+  - IAM User
+  - IAM Policy
+  - IAM Role
+  - IAM Group
+- EC2 Virtual Machine
+- S3 Object storage
+- Billing
+- Elasticity
+  - Elastic beanstalk
+- Serverless computing
+  - Lambda
+  - Relational Database Service (RDS) 
+- Cloud Maven
+
+
+## cloud101 
+
+
+A day in the life
+
+
 
 
 > ## Why Are We Here? 
-> If cloud computing was just Virtual Machines and Storage we would not be here 
-> today! There must more going on.  Attendees include representatives from 
+> There are about six advantages to using the public cloud as a research 
+> platform. 
+>
+> 1. You do not wait for compute tasks to go through a queue
+> 2. You do not purchase and maintain hardware, operating systems etcetera
+> 3. You pay for resources you use; and then shut them off
+> 4. You have huge scale-up potential (reduced processing time)
+> 5. There is a huge support community rapidly expanding cloud tools and tech
+> 6. Storage, reliability, security and many other off-the-shelf services
+>
+> There are about four reasons to not migrate to the cloud
+>
+> 1. You have already identified an adequate-to-your-needs computing environment like XSEDE
+> 2. You don't have time to learn how to work on the public cloud
+> 3. You operate your computer(s) at a very high duty cycle (more cost-effective)
+> 4. There is too much administrative drag preventing you from using the cloud
+>
+> Attendees of UW Cloud 101 include scientists from 
 > **Oceanography, Libraries, Biology, eScience, Forestry, Genomics, 
 > Bioinformatics, Sociology, Computer Science, Hospitals, Environmental Science, 
 > Astronomy, Electrical Engineering, the Information School and King County
@@ -47,12 +106,9 @@ will exceed the start-up credits (say $100) and we don't want that.
 ![red queen](/cloud101_aws/fig/redqueen.png)
 
 
-We work out of the eScience Institute and UW IT to try and accelerate research by helping
-the **Researcher**.  Our model for the **Researcher** is the Red Queen from 
-_Through The Looking Glass_: A person running very fast just to stay in once place. 
-We tend to work with Researchers who can make the time to stop running for a moment 
-in order to learn about and evaluate the cloud as a research computing platform. 
-This one-day course is primarily introductory but also as hands-on as we can make it. 
+We work out of the eScience Institute and UW IT to accelerate research.
+Our model for a **Researcher** is the Red Queen from _Through The Looking Glass_: Running 
+very fast just to stay in once place.  
 
 
 > ## Our Call To Action To You
@@ -74,33 +130,14 @@ This one-day course is primarily introductory but also as hands-on as we can mak
 - Set up your cloud account, build your environment, get back to your research
 
 
-### What this course is 
 
-- A description of how you choose a cloud platform
-- Elements of implementing your research on the cloud
-- Overview of security, cost, account management, processing power and time value
-- Hands-on: Start an instance, store some data **Across Three Cloud Platforms**
-- Hands-on: Build a Django web application with an API
-- Hands-on: Build and operate a compute cluster
-- Enthusiasim: Researcher advocacy and the eScience Institute
-
-
-### What it isn't
-
-
-- A comprehensive overview of managing a public cloud account 
-- A license to jump onto the public cloud and start creating massive compute jobs
-- An advertisement for some particular cloud vendor 
-- Extensive comparison with **BAM** or UW HPC computing 
-
-
-### Two severe weather advisories
+## Advisories
 
 
 > ## The burden of cloud management is on each of us
-> There is considerable detail to learn about managing your work on the public cloud.
+> There are details to learn about managing your work on the public cloud.
 > Without this skill life can quickly become expensive; for example if you accidentally 
-> allocate > expensive resources and leave them runningi. 
+> allocate > expensive resources and leave them running. 
 > (Cloud instances can be turned off without losing state/progress and they can
 > be saved as memory images.)
 {: .callout}
@@ -232,34 +269,8 @@ This really depends on the value of your time in relation to your research budge
 much of your wall clock time you spend doing computing.  It also depends on your team's capacity 
 to assess and learn cloud tech for your work. This might be very fast - which is what we find in
 the majority of cases - but if you are getting into sophisticated work e.g. using a web framework
-then there could be a substantial bootstrapping effort required. 
+or developing a database then substantial bootstrapping effort will be required. 
 
-
-  - You are the protagonist in the play
-  - The other actors are funding agencies, cloud vendors, third party providers
-  - There is your domain-specific community 
-  - There is the open source development community. They may have built 98% of what you need.
-
-
-Our call to action is: 'Learn enough to learn enough to learn enough... to evaluate cloud migration.'
-The simplest approach is to visit us by appointment or during drop-in office hours. 
-
-
-### Which Cloud Should I Use?
-
-
-"It depends..." and here are some factors.
-
-
-- In your field of study: Are certain cloud providers in favor? For compelling reasons? 
-- What sort of compute power are you looking for? Single machines? cluster? GPU? FPGA? HTC? HPC? 
-- Cost: Per machine, en masse, Spot (bidding) market, reserved VMs, dedicated VMs for security, ...
-- Compare your compute tasks with case studies at [cloudmaven.org](http://cloudmaven.org)
-- Be aware of credit programs: Azure and AWS; Google may follow soon...
-- Be aware of cost tracking and billing as a way to validate your cost estimates
-- Development tools for the different clouds
-- What services do the vendors provide that may make life much simpler?  
-- Docker: Your first key to migrating from one cloud to another
 
 
 |Category|AWS|Azure|Google|
