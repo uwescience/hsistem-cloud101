@@ -1,6 +1,6 @@
 ---
 title: "Cloud adoption framework"
-teaching: 15
+teaching: 40
 exercises: 0
 questions:
 - "What is our cloud framework?"
@@ -49,11 +49,33 @@ of around $100.
 ## vocabulary
 
 
+This section of vocabulary is specific to Rob.
+
+
+- Entity: Some *thing* on AWS
+- Resource: An **Entity** you are charged for
+- Zero: A number approximately equal to 0 that you are charged for something...
+  - ...until you start operating Netflix
+- Test: The process of verifying that something works on the cloud as expected
+  - See for example the Lambda code on the JupyterHub cloud101 notebook compared to local
+- WCPGW Principle: The assumption that something will go wrong when you go to the cloud
+  - cf Healthy Paranoia
+  - cf Genomics Error
+- Region-based thinking: If you forget about regions you risk falling through the looking glass
+- Zero Effort Principle
+- AWS Logic
+- [Cloud Maven](http://cloudmaven.org)
+
+
 This glossary is oriented towards AWS. Other clouds: Other customs.
 
 
+- AWS (not Amazon dot com)
 - Account
 - Owner
+- Regions and AZs
+- Endpoint
+- ARN
 - IAM
   - IAM User
   - IAM Policy
@@ -62,12 +84,19 @@ This glossary is oriented towards AWS. Other clouds: Other customs.
 - EC2 Virtual Machine
 - S3 Object storage
 - Billing
+  - Cost explorer
+  - Zero Effort Principle (MB)
 - Elasticity
   - Elastic beanstalk
 - Serverless computing
   - Lambda
   - Relational Database Service (RDS) 
-- Cloud Maven
+- Endpoint
+  - Egress
+- Virtual Private Cloud
+  - Public and Private Subnets
+  - NAT Gateway
+  - Tunneling
 
 
 ## cloud101 

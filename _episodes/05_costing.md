@@ -1,7 +1,7 @@
 ---
 title: "Costing AWS"
-teaching: 0
-exercises: 20
+teaching: 40
+exercises: 0
 questions:
 - "How much does the cloud cost and why do I care?"
 - "How would I go look this up in the future?"
@@ -19,17 +19,48 @@ keypoints:
 
 ## How much?
 
-Let's do this across the five pillars
+Let's do this across the five pillars: Compute, store, web, database, services
 
-1. X
-2. Y
-- qual
-3. Z
-- qual
-- qual
-4. U
-5. V
-6. W
-7. XX
-8. YY
+### Compute 
+
+- How much does an EC2 cost per hour?
+- How much can I save on the spot market?
+- What other things exist to help me cut cost?
+- How much does EBS cost? 
+- What does an instance cost when I Stop it?
+- What happens when I terminate an instance? 
+- How much do ghost ship EBSs cost me over a year?
+
+
+### Store
+
+- What is S3 running me? 
+- What does limited access do? 
+- What does Glacier do? 
+- What is the dreadful pitfall of object storage?
+
+
+### Web
+
+
+- How much does Django cost? 
+- How much does Bottle cost? 
+- How much does Flask cost? 
+
+
+### Database
+
+
+- How much does MySQL cost?
+- How much does PostgreSQL cost?
+- How much does SQL Server cost?
+
+
+### Services
+
+
+- How much does MySQL cost?
+- How much does PostgreSQL cost?
+- How much does SQL Server cost?
+
 
