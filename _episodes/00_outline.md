@@ -15,10 +15,13 @@ Ariel:
 
 6. Install software, run some computation with the data.
 
+7. Installing and running a jupyter notebook server
+
+8. Cloudknot on top of that (need to switch to root before installing everything)
+
 Amanda:
 
 7. Lambda
-
 
 Ariel:
 
