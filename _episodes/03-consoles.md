@@ -6,53 +6,55 @@ questions:
 - "What are the three primary ways of talking to the cloud?"
 - "What are the main activities supported by cloud consoles?"
 objectives:
-- "Learn the navigational mindset for console operations"
+- "Learn how to spin up an instance, install the AWS Cli and create an s3 bucket"
 keypoints:
 - "AWS is low-cost, feature rich, has widest use"
 - "At a high level you want to know about EC2, S3 and IAM"
 ---
 
-### Storage on the cloud: S3
+### Logging in to the AWS Console & Creating an EC2 instance
+Log in to https://uwescience.signin.aws.amazon.com/console. Use th IAM Username and Password that was provided to you Account ID/Alias: uwescience
 
-In S3, we can create "buckets" with data. These are like folders on a
-computer, except they're not really on any computer that we can access,
-so we'll have to download them onto some other computers to do any
-computations with the data.
+Once you are logged on the the console, on the right top hand corner next to your IAM username you will see a region. Please make sure that US-East(Ohio) is selected from the drop down menu. We will be solely using the Ohio region for Neurohackweek cloud work. 
 
-One of the main things to remember about S3 is that storing data on S3 is
-not very expensive ($0.024/GB/month) but you can end up paying quite a
-bit if you move the data out of the AWS data-center in which your data is
-stored. One way to avoid that is to do all your compute in that
-data-center. That is, bring your compute to where the data is.
+Under Build a Solution, select Launch A Virtual Machine
 
-That means that you will want to keep an eye on the "region" in which the
-data is stored (in our case Ohio) and only download the data to machines
-that are in that region.
+Step 1: Choose an Amazon Machine Image (AMI)
+Select Ubuntu Server 16.04 LTS (HVM), SSD Volume Type 
 
-## Creating an object storage bucket
+Step 2: Choose an Instance Type
+Select t2.micro, click Next: Configure Instance Details
 
-Creating a bucket for our data is done by clicking on the big blue button:
+Step 3: Configure Instance Details
+The only thing you will need to change is the IAM role. Select  *neurohacks3fullaccess* from the Drop Down List. IAM roles allow AWS resources to communicate with one another without the use of access keys. Click Next: Add Storage
 
-![](../fig/create-bucket.png)
+Step 4: Add Storage
+Change the Size to 25GiB. Click Next: Add Tags
 
-We'll choose a name, and make sure again that the region is Ohio
+Step 5: Add Tags
+Key - Name, Value - neurohack-amandatan
+Key - Owner, Value - neurohack-amandatan
 
-![](../fig/name-bucket.png)
+Please append *neurohack* to your IAM username for all AWS resources you provision. This helps us keep track of the resources. 
 
-The next few dialogues allow us to configure settings of the bucket (such
-as whether to log access to the bucket, whether to allow publich access
-to the bucket, and so on).
+Step 6: Configure Security Group
+Select the Select an existing security group button 
+Check the neurohackweek-SG button and click Review and Launch
 
-Once we have created the bucket, we can find the bucket in our list. When we go into the bucket, we see that there's nothing there.
+Step 7: Review Instance Launch
+Click Launch
 
-![](../fig/empty-bucket.png)
+The Select an existing key pair or Create a new key pair window will pop up.
 
-We can put some data in it. For example, by dragging and dropping.
+From the drop down menu, select Create a new key pair. The key pair name will be *neurohack-IAMusername* 
 
-## Creating a User
+Make sure to 
 
-## Creating a Policy
 
-## Creating a Role
+### Logging on to the EC2 instance, installing the AWS Cli and s3 buckets
 
-## Using a Service
+
+
+
+
+
