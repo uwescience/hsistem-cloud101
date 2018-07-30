@@ -12,6 +12,10 @@ keypoints:
 - "At a high level you want to know about EC2, S3 and IAM"
 ---
 
+### Pre-requisites
+Mac: iTerm/Terminal 
+Windows: Windows bash, 
+
 ### Logging in to the AWS Console & Creating an EC2 instance
 Log in to https://uwescience.signin.aws.amazon.com/console. Use th IAM Username and Password that was provided to you Account ID/Alias: uwescience
 
@@ -48,10 +52,15 @@ The Select an existing key pair or Create a new key pair window will pop up.
 
 From the drop down menu, select Create a new key pair. The key pair name will be *neurohack-IAMusername* 
 
-Make sure to 
+Make sure to Download Key Pair. Note where the Key Pair is saved (for Mac/Linux, it is usually automatically saved to your Downloads folder). Once you have saved the Key Pair (e.g. neurohack-amandatan.pem), click Launch Instances.
 
+You will see the Launch Status screen. Click on ID number associated with your instance. 
+
+You will be taken to the EC2 dashboard. Look for the IPv4 Public IP. You will need this IP to ssh into your instance.  
 
 ### Logging on to the EC2 instance, installing the AWS Cli and s3 buckets
+
+If using Mac, open iterm or Terminal app. If using Windows, you will either need to insta
 
 
 
