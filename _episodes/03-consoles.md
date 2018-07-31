@@ -14,7 +14,7 @@ keypoints:
 
 ### Pre-requisites
 Mac: iTerm/Terminal 
-Windows: Windows bash, 
+Windows: [Windows bash](https://docs.microsoft.com/en-us/windows/wsl/install-win10), [Putty](https://www.putty.org)
 
 ### Logging in to the AWS Console & Creating an EC2 instance
 Log in to https://uwescience.signin.aws.amazon.com/console. Use th IAM Username and Password that was provided to you Account ID/Alias: uwescience
@@ -58,9 +58,33 @@ You will see the Launch Status screen. Click on ID number associated with your i
 
 You will be taken to the EC2 dashboard. Look for the IPv4 Public IP. You will need this IP to ssh into your instance.  
 
-### Logging on to the EC2 instance, installing the AWS Cli and s3 buckets
+### Logging on to the EC2 instance, installing the AWS Cli and creating s3 buckets
 
-If using Mac, open iterm or Terminal app. If using Windows, you will either need to insta
+Open iTerm or Terminal (Mac) or Windows Bash and locate the Key Pair file you downloaded. Change the permission of the file using chmod 400. 
+
+Log on to your instance with ssh: 
+
+``` ssh -i "neurohack-amandatan.pem" ubuntu@52.14.247.95 ```
+
+Once logged on, update and upgrade packages and install the awscli:
+
+``` sudo apt update ```
+
+``` sudo apt upgrade ```
+
+``` sudo apt install awscli```
+
+To list bucket contents (this will list ALL the s3 buckets in the account): 
+
+``` aws s3 ls ```
+ 
+ To create a new bucket (please use *neurohack-IAMusername*)
+
+``` aws s3 mb s3://neurohack-amandatan```
+
+You should now be able to see your bucket when you list the bucket contents again. 
+
+### Uploading a file to s3 via console and uploading to EC2 instance, etc. 
 
 
 
