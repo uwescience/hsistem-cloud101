@@ -84,7 +84,28 @@ To list bucket contents (this will list ALL the s3 buckets in the account):
 
 You should now be able to see your bucket when you list the bucket contents again. 
 
-### Uploading a file to s3 via console and uploading to EC2 instance, etc. 
+### s3 manipulation
+
+To copy files from one s3 bucket to another:
+
+``` aws s3 cp s3://neurohack-amandatan/* s3://neurohack-yourbucket```
+
+List contents of your bucket: 
+
+``` aws s3 ls s3://neurohack-yourbucket```
+
+You should now see 4 files. 
+
+2018-07-31 18:32:01        770 HARDI150.bval
+2018-07-31 18:32:00       3889 HARDI150.bvec
+2018-07-31 18:32:01   91378947 HARDI150.nii.gz
+2018-07-31 18:32:51    1153166 t1.nii.gz
+
+Ok let's go back to our AWS console and look at policies. 
+
+
+
+
 
 
 
