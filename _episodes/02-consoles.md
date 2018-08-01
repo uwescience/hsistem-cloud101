@@ -5,8 +5,10 @@ exercises: 30
 questions:
 - "What are the three primary ways of talking to the cloud?"
 - "What are the main activities supported by cloud consoles?"
+
 objectives:
 - "Learn how to spin up an instance, install the AWS CLI and create an s3 bucket"
+
 keypoints:
 - "AWS is low-cost, feature rich, has widest use"
 - "At a high level you want to know about EC2, S3 and IAM"
@@ -88,6 +90,24 @@ your instance.
 
 You will be taken to the EC2 dashboard. Look for the IPv4 Public IP. You
 will need this IP to ssh into your instance.
+
+### Storage on the cloud: S3
+
+In S3, we can create "buckets" with data. These are like folders on a
+computer, except they're not really on any computer that we can access,
+so we'll have to download them onto some other computers to do any
+computations with the data.
+
+One of the main things to remember about S3 is that storing data on S3 is
+not very expensive ($0.024/GB/month) but you can end up paying quite a
+bit if you move the data out of the AWS data-center in which your data is
+stored. One way to avoid that is to do all your compute in that
+data-center. That is, bring your compute to where the data is.
+
+That means that you will want to keep an eye on the "region" in which the
+data is stored (in our case Ohio) and only download the data to machines
+that are in that region.
+
 
 ### Logging on to the EC2 instance, installing the AWS CLI and creating s3 buckets
 
