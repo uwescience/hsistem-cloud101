@@ -30,7 +30,7 @@ ck.set_region('us-east-2')
 ~~~
 
 
-https://github.com/richford/cloudknot/blob/master/examples/03_write_to_s3_bucket.ipynb
+[https://github.com/richford/cloudknot/blob/master/examples/03_write_to_s3_bucket.ipynb](https://github.com/richford/cloudknot/blob/master/examples/03_write_to_s3_bucket.ipynb)
 
 
 ~~~
