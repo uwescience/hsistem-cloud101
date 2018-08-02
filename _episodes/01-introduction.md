@@ -45,27 +45,27 @@ only be accessible to you through an intermediated interface.
 
 1. You do not wait for compute tasks to go through a queue
 
-> Compute can start as soon as you want it
+    > Compute can start as soon as you want it
 
 2. You do not purchase and maintain hardware, operating systems etcetera
 
-> Upgrades just happen
+    > Upgrades just happen
 
 3. You pay for resources you use; and then shut them off
 
-> You don't have to buy into an institutional cluster if the cost calculation doesn't make sense for you.
+    > You don't have to buy into an institutional cluster if the cost calculation doesn't make sense for you.
 
 4. You have huge scale-up potential (reduced processing time)
 
-> In principle, you have near-infinite computing capacity.
+    > In principle, you have near-infinite computing capacity.
 
 5. There is a huge support community rapidly expanding cloud tools and tech
 
-> Because of the public availability of these resources, and substantial buy-in from industry, there is a large eco-system of tools and resources.
+    > Because of the public availability of these resources, and substantial buy-in from industry, there is a large eco-system of tools and resources.
 
 6. Storage, reliability, security and many other off-the-shelf services
 
-> And they just keep making new stuff.
+    > And they just keep making new stuff.
 
 ### There are about four reasons to not migrate to the cloud
 
