@@ -150,7 +150,7 @@ contents again.
 
 To copy files from one s3 bucket to another:
 
-``` aws s3 cp s3://neurohack-amandatan/* s3://neurohack-yourbucket```
+```  aws s3 cp s3://neurohack-amandatan s3://neurohack-arokem --recursive```
 
 List contents of your bucket:
 
