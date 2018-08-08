@@ -181,6 +181,11 @@ Detach the screen by typing ctrl-A-D. Jupyter session is still running,
 but it's in that screen session, so you can't see it. It will continue
 running for as long as the machine is still turned on.
 
+To access the notebook that you just created:  
+1. Go to your aws console, find and connect to the instance that is running that notebook. 
+2. Copy the public IP address field: Public DNS (IPv4)
+3. Open a new tab in your browser and go to https://[Public_IP_from_step_3]:[c.NotebookApp.port] where c.NotebookApp.port is the port you pointed to above (8888)
+4. Click proceed.  
 
 #### `boto3` is a library that talks to AWS for you
 
