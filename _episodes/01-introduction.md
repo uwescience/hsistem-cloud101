@@ -41,6 +41,10 @@ only be accessible to you through an intermediated interface.
 
 ## Why use the cloud?
 
+Cattle, not pets
+
+![cattlenotpets](https://cdn2.hubspot.net/hubfs/5041972/Imported_Blog_Media/Pets-Cattle-1-4.png)
+
 ### There are about six advantages to using the public cloud as a research platform.
 
 1. You do not wait for compute tasks to go through a queue
