@@ -45,6 +45,9 @@ Cattle, not pets
 
 ![cattlenotpets](https://cdn2.hubspot.net/hubfs/5041972/Imported_Blog_Media/Pets-Cattle-1-4.png)
 
+More data sets are moving to the cloud e.g. (Landsat, Sentinel-2) -- compute where you store to minimize time downloading, storage problems
+
+
 ### There are about six advantages to using the public cloud as a research platform.
 
 1. You do not wait for compute tasks to go through a queue
