@@ -41,12 +41,13 @@ only be accessible to you through an intermediated interface.
 
 ## Why use the cloud?
 
-Cattle, not pets
+1. Cattle, not pets
 
 ![cattlenotpets](https://cdn2.hubspot.net/hubfs/5041972/Imported_Blog_Media/Pets-Cattle-1-4.png)
 
-More data sets are moving to the cloud e.g. (Landsat, Sentinel-2) -- compute where you store to minimize time downloading, storage problems
+2. More data sets are moving to the cloud e.g. (Landsat, Sentinel-2) -- compute where you store to minimize time downloading, storage problems
 
+![red queen](../fig/redqueen.png)
 
 ### There are about six advantages to using the public cloud as a research platform.
 
@@ -80,8 +81,6 @@ More data sets are moving to the cloud e.g. (Landsat, Sentinel-2) -- compute whe
     Sometimes it just doesn't make sense. In some cases, you already have the access to the resources you need.
 2. You don't have time to learn how to work on the public cloud
     There is stuff to learn. That's what we're here for! But there will be more to learn after this session is over. If you prefer to learn other things, you might not want to invest your time in learning about the cloud.
-
-![red queen](../fig/redqueen.png)
 
 3. You operate your computer(s) at a very high duty cycle (more cost-effective)
     If your computer is constantly computing something, the cloud might end up costing you more.
