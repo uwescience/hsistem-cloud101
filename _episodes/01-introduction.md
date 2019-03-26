@@ -203,6 +203,12 @@ in the majority of cases - but if you are getting into sophisticated work
 e.g. using a web framework or developing a database then substantial
 bootstrapping effort will be required.
 
+
+### Commercial Cloud Options
+[Google Cloud Platform](http://console.cloud.google.com): Easy Interface, cheap computing options ($300 credits, free signup)
+[Amazon Web Services](http://console.aws.com): LOTS of services, features, most widely used ($200 AWS Educate)
+[Microsoft Azure](http://portal.azure.com): Integrates well with other Microsoft products
+
 ### The AWS console.
 
 Let's get concrete. There are several ways to interact with cloud
