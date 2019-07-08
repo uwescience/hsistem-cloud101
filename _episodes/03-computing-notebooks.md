@@ -19,7 +19,7 @@ keypoints:
 Now, we have data inside our cloud machine. Let's see how we can do some
 computing with this data.
 
-To install Python-related software, we'll make sure that our machine has the
+To install Python-related software, we'll make sure that our machine has the packages required for us to work with. 
 
 
 - Install miniconda
