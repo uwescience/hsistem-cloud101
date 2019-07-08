@@ -46,7 +46,7 @@ Select 't2.micro', click Next: Configure Instance Details
 
 The only thing you will need to change is the IAM role. 
 Select
-*neurohacks3fullaccess* from the Drop Down List. 
+*esips3fullaccess* from the Drop Down List. 
 IAM roles allow AWS resources to communicate with one 
 another without the use of access keys.
 Click Next: Add Storage
@@ -58,17 +58,17 @@ Click Next: Add Tags
 
 #### Step 5: Add Tags
 
-Key - Name, Value - neurohack-amandatan
-Key - Owner, Value - neurohack-amandatan
+Key - Name, Value - esip-amandatan
+Key - Owner, Value - esip-amandatan
 
-Please append *neurohack* to your IAM username for all AWS resources you
+Please append *esip* to your IAM username for all AWS resources you
 provision. 
 This helps us keep track of the resources.
 
 #### Step 6: Configure Security Group
 
 Select the Select an existing security group button
-Check the neurohackweek-SG button and click Review and Launch
+Check the esip-SG button and click Review and Launch
 
 #### Step 7: Review Instance Launch
 
@@ -78,7 +78,7 @@ The Select an existing key pair or Create a new key pair window will pop
 up.
 
 From the drop down menu, select Create a new key pair. 
-The key pair name will be *neurohack-IAMusername*
+The key pair name will be *esip-IAMusername*
 
 Make sure to Download Key Pair. Note where the Key Pair is saved (for
 Mac/Linux, it is usually automatically saved to your Downloads folder).
@@ -131,7 +131,7 @@ permission of the file using:
 
 'Log on to your instance with ssh:
 
-``` ssh -i "neurohack-amandatan.pem" ubuntu@52.14.247.95 ```
+``` ssh -i "esip-amandatan.pem" ubuntu@52.14.247.95 ```
 
 Once logged on, update and upgrade packages and install the awscli:
 
@@ -147,7 +147,7 @@ To list bucket contents (this will list ALL the s3 buckets in the account):
 
  To create a new bucket (please use *neurohack-IAMusername*)
 
-``` aws s3 mb s3://neurohack-amandatan```
+``` aws s3 mb s3://esip-amandatan```
 
 You should now be able to see your bucket when you list the bucket
 contents again.
@@ -156,11 +156,11 @@ contents again.
 
 To copy files from one s3 bucket to another:
 
-```  aws s3 cp s3://neurohack-amandatan s3://neurohack-yourbucket --recursive```
+```  aws s3 cp s3://esip-amandatan s3://neurohack-yourbucket --recursive```
 
 List contents of your bucket:
 
-``` aws s3 ls s3://neurohack-yourbucket```
+``` aws s3 ls s3://esip-yourbucket```
 
 You should now see 4 files.
 
