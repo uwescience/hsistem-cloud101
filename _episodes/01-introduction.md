@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-teaching: 15
+teaching: 20
 exercises: 0
 questions:
 - "Why and when should we use the cloud?"
