@@ -86,7 +86,7 @@ Mac/Linux, it is usually automatically saved to your Downloads folder).
 If you want to use the hub for the next few steps, upload the key file
 into the hub using the upload button.
 
-Once you have saved the Key Pair (e.g. neurohack-amandatan.pem), click
+Once you have saved the Key Pair (e.g. esip-amandatan.pem), click
 Launch Instances.
 
 You will see the Launch Status screen. 
@@ -156,7 +156,7 @@ contents again.
 
 To copy files from one s3 bucket to another:
 
-```  aws s3 cp s3://esip-amandatan s3://neurohack-yourbucket --recursive```
+```  aws s3 cp s3://esip-amandatan s3://esip-yourbucket --recursive```
 
 List contents of your bucket:
 
