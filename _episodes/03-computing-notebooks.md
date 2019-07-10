@@ -1,7 +1,7 @@
 ---
 title: "Doing computations in the cloud"
 teaching: 0
-exercises: 30
+exercises: 35
 questions:
 - "What can we use a cloud machine for?"
 
@@ -20,6 +20,12 @@ Now, we have data inside our cloud machine. Let's see how we can do some
 computing with this data.
 
 To install Python-related software, we'll make sure that our machine has the packages required for us to work with. 
+
+Step 1. Install miniconda
+We will install miniconda from this link: https://docs.conda.io/en/latest/miniconda.html
+Let's choose 
+
+Step 2. conda install 
 
 
 - Install miniconda
