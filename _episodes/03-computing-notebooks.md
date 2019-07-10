@@ -21,12 +21,13 @@ computing with this data.
 
 To install Python-related software, we'll make sure that our machine has the packages required for us to work with. 
 
-Step 1. Install miniconda
+**Step 1. Install miniconda**
 ``` wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh```
 
 Answer Y to the prompts. 
 
-Step 2. Create a conda environment and all packages within the environment
+
+**Step 2. Create a conda environment and all packages within the environment**
 
 ```conda create -n esip python=3.7```
 
@@ -34,9 +35,12 @@ Step 2. Create a conda environment and all packages within the environment
 
 ```conda install matplotlib rasterio boto3```
 
-Step 3. Get Jupyter Notebook going
+
+**Step 3. Get Jupyter Notebook going**
 
 ```jupyter notebook```
 
+
 Step 4. Let's do some fun stuff with Jupyter Notebooks
-Once you have Jupyter Notebook going, we will follow the steps outlined in this notebook: https://github.com/amanda-tan/cloud101_aws_esip/blob/gh-pages/rasterio-landsat-aws.ipynb
+Once you have Jupyter Notebook going, we will follow the steps outlined in this notebook: 
+[https://github.com/amanda-tan/cloud101_aws_esip/blob/gh-pages/rasterio-landsat-aws.ipynb]<https://github.com/amanda-tan/cloud101_aws_esip/blob/gh-pages/rasterio-landsat-aws.ipynb>
