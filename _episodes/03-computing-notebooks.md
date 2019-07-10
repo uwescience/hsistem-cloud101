@@ -43,4 +43,4 @@ Answer Y to the prompts.
 
 Step 4. Let's do some fun stuff with Jupyter Notebooks
 Once you have Jupyter Notebook going, we will follow the steps outlined in this notebook: 
-[https://github.com/amanda-tan/cloud101_aws_esip/blob/gh-pages/rasterio-landsat-aws.ipynb]<https://github.com/amanda-tan/cloud101_aws_esip/blob/gh-pages/rasterio-landsat-aws.ipynb>
+<https://github.com/amanda-tan/cloud101_aws_esip/blob/gh-pages/rasterio-landsat-aws.ipynb>
