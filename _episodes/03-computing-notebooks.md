@@ -1,7 +1,7 @@
 ---
 title: "Doing computations in the cloud"
 teaching: 0
-exercises: 35
+exercises: 40
 questions:
 - "What can we use a cloud machine for?"
 
