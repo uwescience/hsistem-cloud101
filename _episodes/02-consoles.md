@@ -30,7 +30,7 @@ uwescience
 Once you are logged on the the console, on the right top hand corner next
 to your IAM username you will see a region.
 Please make sure that US-East(Ohio) is selected from the drop down menu. 
-We will be solely using the Ohio region for Neurohackweek cloud work.
+We will be solely using the Ohio region for this tutorial cloud work.
 
 Under Build a Solution, select Launch A Virtual Machine
 
@@ -58,8 +58,8 @@ Click Next: Add Tags
 
 #### Step 5: Add Tags
 
-Key - Name, Value - esip-amandatan
-Key - Owner, Value - esip-amandatan
+Key - Name, Value - esip-testuser1
+Key - Owner, Value - esip-testuser2
 
 Please append *esip* to your IAM username for all AWS resources you
 provision. 
@@ -86,7 +86,7 @@ Mac/Linux, it is usually automatically saved to your Downloads folder).
 If you want to use the hub for the next few steps, upload the key file
 into the hub using the upload button.
 
-Once you have saved the Key Pair (e.g. esip-amandatan.pem), click
+Once you have saved the Key Pair (e.g. esip-testuser1.pem), click
 Launch Instances.
 
 You will see the Launch Status screen. 
@@ -104,7 +104,7 @@ any computer that we can access, so we'll have to download them
 onto some other computers to do any computations with the data.
 
 One of the main things to remember about S3 is that storing data on S3 is
-not very expensive ($0.024/GB/month) but you can end up paying quite a
+not very expensive ($0.02/GB/month) but you can end up paying quite a
 bit if you move the data out of the AWS data-center in which your data is
 stored. 
 One way to avoid that is to do all your compute in that data-center. 
@@ -131,7 +131,7 @@ permission of the file using:
 
 'Log on to your instance with ssh:
 
-``` ssh -i "esip-amandatan.pem" ubuntu@52.14.247.95 ```
+``` ssh -i "esip-testuser1.pem" ubuntu@52.14.247.95 ```
 
 Once logged on, update and upgrade packages and install the awscli:
 
@@ -145,9 +145,9 @@ To list bucket contents (this will list ALL the s3 buckets in the account):
 
 ``` aws s3 ls ```
 
- To create a new bucket (please use *neurohack-IAMusername*)
+ To create a new bucket (please use *esip-IAMusername*)
 
-``` aws s3 mb s3://esip-amandatan```
+``` aws s3 mb s3://esip-testuser1```
 
 You should now be able to see your bucket when you list the bucket
 contents again.
@@ -156,7 +156,7 @@ contents again.
 
 To copy files from one s3 bucket to another:
 
-```  aws s3 cp s3://esip-amandatan s3://esip-yourbucket --recursive```
+```  aws s3 cp s3://esip-testuser1 s3://esip-yourbucket --recursive```
 
 List contents of your bucket:
 
@@ -168,5 +168,3 @@ You should now see 4 files.
 2018-07-31 18:32:00       3889 HARDI150.bvec
 2018-07-31 18:32:01   91378947 HARDI150.nii.gz
 2018-07-31 18:32:51    1153166 t1.nii.gz
-
-Ok let's go back to our AWS console and look at policies.
