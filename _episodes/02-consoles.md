@@ -58,8 +58,8 @@ Click Next: Add Tags
 
 #### Step 5: Add Tags
 
-Key - Name, Value - esip-testuser1
-Key - Owner, Value - esip-testuser2
+Key - Name, Value - esip-esipuser
+Key - Owner, Value - esip-esipuser
 
 Please append *esip* to your IAM username for all AWS resources you
 provision. 
@@ -147,7 +147,7 @@ To list bucket contents (this will list ALL the s3 buckets in the account):
 
  To create a new bucket (please use *esip-IAMusername*)
 
-``` aws s3 mb s3://esip-esipuser1```
+``` aws s3 mb s3://esip-esipuser```
 
 You should now be able to see your bucket when you list the bucket
 contents again.
