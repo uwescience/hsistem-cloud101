@@ -156,7 +156,7 @@ contents again.
 
 To copy files from one s3 bucket to another:
 
-```  aws s3 cp s3://landsat-pds/c1/L8/042/034/LC08_L1TP_042034_20170616_20170629_01_T1/LC08_L1TP_042034_20170616_20170629_01_T1_B4.TIF s3://esip-esipuser1 --recursive```
+```  aws s3 cp s3://landsat-pds/c1/L8/042/034/LC08_L1TP_042034_20170616_20170629_01_T1/LC08_L1TP_042034_20170616_20170629_01_T1_B4.TIF s3://esip-esipuser --recursive```
 
 List contents of your bucket:
 
