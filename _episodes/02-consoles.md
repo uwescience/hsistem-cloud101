@@ -36,7 +36,7 @@ Under Build a Solution, select Launch A Virtual Machine
 
 #### Step 1: Choose an Amazon Machine Image (AMI)
 
-Select Ubuntu Server 16.04 LTS (HVM), SSD Volume Type
+Select Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
 
 #### Step 2: Choose an Instance Type
 
@@ -123,15 +123,15 @@ console, and then click on "connect"
 This will show you the instructions for how to connect, including the unique
 IP address of your machine.
 
-Using your terminal of choice (iTerm or Terminal on Mac, Windows Bash or
-the hub) and locate the Key Pair file you downloaded. Change the
-permission of the file using:
+Use your terminal of choice (iTerm or Terminal on Mac and Linux and Windows Bash) and locate the Key Pair file you downloaded. Change the permission of the file using:
 
-`chmod 400`
+`chmod 400 esipuser.pem`
+
+*Note that your key file might be a text file instead of a regular .pem file
 
 'Log on to your instance with ssh:
 
-``` ssh -i "esip-testuser1.pem" ubuntu@52.14.247.95 ```
+``` ssh -i "esipuser1.pem" ubuntu@ec2-18-191-95-47.us-east-2.compute.amazonaws.com ```
 
 Once logged on, update and upgrade packages and install the awscli:
 
@@ -147,7 +147,7 @@ To list bucket contents (this will list ALL the s3 buckets in the account):
 
  To create a new bucket (please use *esip-IAMusername*)
 
-``` aws s3 mb s3://esip-testuser1```
+``` aws s3 mb s3://esip-esipuser1```
 
 You should now be able to see your bucket when you list the bucket
 contents again.
@@ -156,15 +156,13 @@ contents again.
 
 To copy files from one s3 bucket to another:
 
-```  aws s3 cp s3://esip-testuser1 s3://esip-yourbucket --recursive```
+```  aws s3 cp s3://landsat-pds/c1/L8/042/034/LC08_L1TP_042034_20170616_20170629_01_T1/LC08_L1TP_042034_20170616_20170629_01_T1_B4.TIF s3://esip-esipuser1 --recursive```
 
 List contents of your bucket:
 
-``` aws s3 ls s3://esip-yourbucket```
+``` aws s3 ls s3://esip-esipuser```
 
-You should now see 4 files.
+You should now see 1 files.
+2019-07-16 04:49:20   70200175 LC08_L1TP_042034_20170616_20170629_01_T1_B4.TIF
 
-2018-07-31 18:32:01        770 HARDI150.bval
-2018-07-31 18:32:00       3889 HARDI150.bvec
-2018-07-31 18:32:01   91378947 HARDI150.nii.gz
-2018-07-31 18:32:51    1153166 t1.nii.gz
+Next we are going to install some packages and work with this data. 
