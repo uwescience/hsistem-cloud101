@@ -156,13 +156,21 @@ contents again.
 
 To copy files from one s3 bucket to another:
 
-```  aws s3 cp s3://landsat-pds/c1/L8/042/034/LC08_L1TP_042034_20170616_20170629_01_T1/LC08_L1TP_042034_20170616_20170629_01_T1_B4.TIF s3://esip-esipuser --recursive```
+```  aws s3 cp s3://neurohack-amandatan s3://neurohack-yourbucket --recursive```
 
 List contents of your bucket:
 
-``` aws s3 ls s3://esip-esipuser```
+``` aws s3 ls s3://neurohack-yourbucket```
 
-You should now see 1 files.
-2019-07-16 04:49:20   70200175 LC08_L1TP_042034_20170616_20170629_01_T1_B4.TIF
+You should now see 4 files.
+
+```
+
+2018-07-31 18:32:01        770 HARDI150.bval
+2018-07-31 18:32:00       3889 HARDI150.bvec
+2018-07-31 18:32:01   91378947 HARDI150.nii.gz
+2018-07-31 18:32:51    1153166 t1.nii.gz
+
+```
 
 Next we are going to install some packages and work with this data. 
