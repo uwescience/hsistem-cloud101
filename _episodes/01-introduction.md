@@ -4,8 +4,8 @@ teaching: 20
 exercises: 0
 questions:
 - "Why and when should we use the cloud?"
+- "How do we use the cloud for data science?"
 - "Who is / are AWS?"
-- "How do we use the cloud?"
 objectives:
 - "Learners will describe advantages and disadvantages of the cloud"
 - "Learners will analyze their use-cases for suitability for cloud
@@ -87,6 +87,13 @@ only be accessible to you through an intermediated interface.
 
 4. There is too much administrative drag preventing you from using the cloud
     That's a thing. Especially when working with human subject data that is encumbered through regulation (such as HIPAA).
+
+
+## Why use the cloud for data science?
+Example data science workflow: acquire data, parsing, munging, analyzing the data, building, testing and validating models 
+
+- Datasets are too large
+- Near infinite CPU
 
 ## Cloud adoption framework
 
@@ -210,6 +217,8 @@ bootstrapping effort will be required.
 [Google Cloud Platform](http://console.cloud.google.com): Easy Interface, cheap computing options ($300 credits, free signup)
 [Amazon Web Services](http://console.aws.com): LOTS of services, features, most widely used ($200 AWS Educate)
 [Microsoft Azure](http://portal.azure.com): Integrates well with other Microsoft products
+
+### Resources for researchers
 
 ### The AWS console.
 
