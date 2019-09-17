@@ -95,6 +95,7 @@ Example data science workflow: acquire data, parsing, munging, analyzing the dat
 - Datasets are too large
 - Near infinite CPU
 - Compute where you store
+- A LOT of services, tools
 
 ## Cloud adoption framework
 
