@@ -94,21 +94,12 @@ Example data science workflow: acquire data, parsing, munging, analyzing the dat
 
 - Datasets are too large
 - Near infinite CPU
+- Compute where you store
 
 ## Cloud adoption framework
 
-If you are working examples you will want to set up and configure an AWS
-cloud account. Be aware that if you put a credit card number in you will
-want to know how to turn things off because the first rule of cloud
-computing is...
-
 
 **Cloud computing is like a utility: You pay for resources you allocate**
-
-
-While learning AWS use free / low-cost resources and practice deleting them
-when you are done with them. You do not want to exceed your trial credits
-of around $100.
 
 ## Advisories
 
@@ -218,7 +209,9 @@ bootstrapping effort will be required.
 [Amazon Web Services](http://console.aws.com): LOTS of services, features, most widely used ($200 AWS Educate)
 [Microsoft Azure](http://portal.azure.com): Integrates well with other Microsoft products
 
-### Resources for researchers
+### Other resources for researchers
+[Colab](https://colab.research.google.com/): Free compute resources through a Jupyter Notebook interface
+[MyBinder](http://mybinder.org): Jupyter Notebooks from a Github repository
 
 ### The AWS console.
 
